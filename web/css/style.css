@@ -1,0 +1,284 @@
+* {
+    	box-sizing: inherit;
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+    	margin: 0;
+    	background-color: rgb(40, 40, 40);
+}
+.elsys{
+	float:left;
+	color: white;
+    	display: block;
+    	text-align: center;
+    	vertical-align: middle;
+    	padding: 1%;
+    	transition: background-color 0.25s;
+    	border: none;
+    	text-decoration:none;
+    	background-color: white;
+    	border-bottom: 3px solid transparent;
+}
+
+.elsys:hover{
+	background-color: rgb(150, 150, 150);
+    	border-bottom: 3px solid blue;
+}
+
+.elsys:focus{
+	outline: none;
+    	border-bottom: 3px solid blue;
+}
+
+.elsys-text{
+	color: blue;
+    	font-family: 'Georgia', serif;
+    	font-size: 230%;
+}
+
+#navbar {
+
+   	 background-color: black;
+   	 position: fixed;
+   	 width: 100%;
+   	 overflow:hidden;
+   	 z-index: 1;
+   
+}
+
+.nav-cell {
+    	color: black;
+    	display: block;
+    	text-align: center;
+    	vertical-align: middle;
+    	padding: 1%;
+    	transition: background-color 0.25s;
+    	border: none;
+    	text-decoration:none;
+    	background-color: black;
+    	float: right;
+    	border-bottom: 3px solid transparent;
+}
+
+.nav-cell:hover {
+    	background-color: rgb(128, 128, 128);
+    	border-bottom: 3px solid red;
+}
+.nav-cell:focus {
+    	outline: none;
+    	border-bottom: 3px solid red;
+}
+
+.nav-cell:active {
+    	opacity: 0.8;
+    	border-bottom: 3px solid red;
+    
+}
+.nav-cell-text {
+    	color: white;
+    	font-family: 'Roboto', sans-serif;
+    	font-size: 200%;
+}
+
+.active {
+    	background-color: rgb(128, 128, 128, 0.9);
+    	border-bottom:3px solid red;
+}
+.active:hover {
+    	background-color: rgb(128, 128, 128, 0.8);
+}
+
+.shop-image {
+	height:100%;
+	background-image: url('../images/image1.jpg');
+        background-position: center;
+  	background-attachment: fixed;
+   	background-repeat: no-repeat;
+   	background-size:100%;
+
+}
+
+.containerInfo {
+	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 1%;
+        font-size:130%;
+	border-radius: 10px;
+}
+
+.heading {
+	display: inline-block;
+	margin-bottom: 4%;
+	padding: 1%;
+	font-size: 300%;
+	color: white;
+	font-family: 'Georgia', serif;
+	border-radius: 5px;
+        border-bottom:3px solid red;
+}
+
+.aboutPage{
+ 	background-image: url('../images/image4.jpg');
+        background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+        background-size:cover;
+	height:100%;
+	background-size:100%;
+}
+
+.containerAbout{
+	position:fixed;
+	height:100%;
+	width:100%;
+	text-align:center;
+
+}
+
+.headingAbout {
+	
+	display: inline-block;
+	margin: 5%;
+	padding: 1%;
+	font-size: 300%;
+	color: white;
+	font-family: 'Georgia', serif;
+        border-bottom:3px solid red;
+}
+
+.paragraph {
+	font-family: 'Roboto', sans-serif;
+	font-size: 150%;
+	text-align: center;
+	color: white;
+	padding: 0.5%;
+}
+.Table{
+	position:relative;
+	text-align:center;
+	height:100%;
+	width:100%;
+}
+
+.product-table {
+	width:100%;
+    	border: solid 5px white;
+    	border-collapse: collapse;
+    	font-family: "Roboto", sans-serif;
+}
+
+.product-table td, th {
+    	border: solid 3px white;
+    	padding: 0.5%;
+    	background-color: black;
+    	color: white;
+    	font-size: 150%;
+}
+
+.product-image {
+    	width: 300px;
+    	height: 300px;
+}
+
+.buy {
+	display:inline-block;
+    	font-size: 150%;
+    	padding: 2.5%;
+    	color: white;
+   	background-color: rgb(40,40,40,0.8);
+        border:none;
+}
+
+.buy:hover {
+    	background-color: rgb(100,100,100,0.8);
+    	border-bottom:2px solid red;
+}
+
+.buy:active {
+   	 background-color: rgb(0,0,0,0.6);   
+}
+
+.buy:focus {
+    	outline:none;
+}
+
+.checkoutPage{
+	background-image:url('../images/image4.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+        background-size:cover;
+	height:100%;
+	background-size:100%;
+}
+
+.checkout{
+	position:fixed;
+	text-align:center;
+	height:100%;
+	width:100%;	
+}
+
+.form {
+	margin:5%;
+	padding:1%;
+}
+
+.personal-information {
+    	color: white;
+    	font-family: "Roboto", sans-serif;
+    	font-size: 150%;
+    	padding: 1%;
+    	display: block;
+}
+
+.pay {
+    	font-family: "Roboto", sans-serif;
+    	font-size:150%;
+    	padding: 1%;
+    	color: white;
+    	background-color: black;
+    	border:none;
+}
+
+.containerPay{
+	text-align:center;
+}
+
+.pay:hover{
+	 background-color: rgb(100,100,100,0.8);
+    	 border-bottom:2px solid red;
+}
+
+.Thanks{
+   	background-image: url('../images/image2.jpg');
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: 100%;
+}
+
+.thx {
+	position:fixed;
+	height:100%;
+	width:100%;
+	text-align:center;
+}
+
+.thx span {
+  	display: inline-block;
+	margin: 5%;
+	padding: 1%;
+	font-size: 300%;
+	color: white;
+	font-family: 'Georgia', serif;
+        border-bottom:3px solid red;
+    
+}
